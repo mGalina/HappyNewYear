@@ -54,7 +54,7 @@ public class IntroActivity extends AppCompatActivity {
         tvSkip = findViewById(R.id.tv_skip);
 
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem(R.string.title1, R.string.description1, R.drawable.image_1));
+        mList.add(new ScreenItem(R.string.title1, R.string.description1, R.drawable.image_2));
         mList.add(new ScreenItem(R.string.title2, R.string.description2, R.drawable.image_1));
         mList.add(new ScreenItem(R.string.title3, R.string.description3, R.drawable.image_1));
         mList.add(new ScreenItem(R.string.title4, R.string.description4, R.drawable.image_1));

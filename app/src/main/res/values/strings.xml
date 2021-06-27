@@ -18,7 +18,28 @@
     <string name="description4">Описание_4</string>
     <string name="description5">Описание_5</string>
     <string name="description6">Описание_6</string>
+
     <string name="button">Button</string>
+
+    <string name="titleBubble1">Заголовок_1</string>
+    <string name="titleBubble2">Заголовок_2</string>
+    <string name="titleBubble3">Заголовок_3</string>
+    <string name="titleBubble4">Заголовок_4</string>
+    <string name="titleBubble5">Заголовок_5</string>
+    <string name="titleBubble6">Заголовок_6</string>
+
+    <string name="descriptionBubble1">Описание_1</string>
+    <string name="descriptionBubble2">Описание_2</string>
+    <string name="descriptionBubble3">Описание_3</string>
+    <string name="descriptionBubble4">Описание_4</string>
+    <string name="descriptionBubble5">Описание_5</string>
+    <string name="descriptionBubble6">Описание_6</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
 
 
 </resources>
