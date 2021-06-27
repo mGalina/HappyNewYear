@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HappyNewYear</string>
+
+    <string name="next">Далее</string>
+    <string name="skip">Пропустить</string>
+    <string name="getStarted">Начать</string>
+
+    <string name="title1">Заголовок_1</string>
+    <string name="title2">Заголовок_2</string>
+    <string name="title3">Заголовок_3</string>
+    <string name="title4">Заголовок_4</string>
+    <string name="title5">Заголовок_5</string>
+    <string name="title6">Заголовок_6</string>
+
+    <string name="description1">Описание_1</string>
+    <string name="description2">Описание_2</string>
+    <string name="description3">Описание_3</string>
+    <string name="description4">Описание_4</string>
+    <string name="description5">Описание_5</string>
+    <string name="description6">Описание_6</string>
+    <string name="button">Button</string>
+
+
+</resources>
