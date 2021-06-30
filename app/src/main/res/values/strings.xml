@@ -37,4 +37,10 @@
 
     <string name="todo">TODO</string>
 
+    <string name="new_text_1">Новый экран 1</string>
+    <string name="new_text_2">Новый экран 2</string>
+    <string name="new_text_3">Новый экран 3</string>
+    <string name="new_text_4">Новый экран 4</string>
+    <string name="new_text_5">Новый экран 5</string>
+
 </resources>
