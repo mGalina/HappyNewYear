@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
+    android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".MainActivity"
-    android:gravity="center">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,13 +18,15 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-
+            android:id="@+id/card_1"
             android:layout_width="160dp"
+
             android:layout_height="190dp"
             android:layout_margin="10dp"
-            android:focusable="true">
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardCornerRadius="14dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -35,75 +38,79 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/colorPurple"
+                    android:contentDescription="@string/todo"
                     android:padding="10dp"
-                    android:src="@drawable/ic_baseline_outlet_24"
-                    android:contentDescription="@string/todo" />
+                    android:src="@drawable/ic_baseline_outlet_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/titleBubble1"/>
+                    android:text="@string/titleBubble1"
+                    android:textStyle="bold" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/white"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="10dp"
+                    android:background="@color/white" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/descriptionBubble1"
                     android:padding="5dp"
-                    android:textColor="@color/intro_title_color"/>
+                    android:text="@string/descriptionBubble1"
+                    android:textColor="@color/intro_title_color" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/card_2"
             android:layout_width="160dp"
+
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardCornerRadius="14dp">
 
             <LinearLayout
-                android:foreground="?android:attr/selectableItemBackground"
-                android:clickable="true"
-
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:orientation="vertical"
-                android:focusable="true">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/colorGreen"
+                    android:contentDescription="@string/todo"
                     android:padding="10dp"
-                    android:src="@drawable/ic_baseline_outlet_24"
-                    android:contentDescription="@string/todo" />
+                    android:src="@drawable/ic_baseline_outlet_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/titleBubble2"/>
+                    android:text="@string/titleBubble2"
+                    android:textStyle="bold" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/white"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="10dp"
+                    android:background="@color/white" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/descriptionBubble2"
                     android:padding="5dp"
-                    android:textColor="@color/intro_title_color"/>
+                    android:text="@string/descriptionBubble2"
+                    android:textColor="@color/intro_title_color" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -118,13 +125,15 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-
+            android:id="@+id/card_3"
             android:layout_width="160dp"
+
             android:layout_height="190dp"
             android:layout_margin="10dp"
-            android:focusable="true">
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardCornerRadius="14dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -136,41 +145,44 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/colorYellow"
+                    android:contentDescription="@string/todo"
                     android:padding="10dp"
-                    android:src="@drawable/ic_baseline_outlet_24"
-                    android:contentDescription="@string/todo" />
+                    android:src="@drawable/ic_baseline_outlet_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/titleBubble3"/>
+                    android:text="@string/titleBubble3"
+                    android:textStyle="bold" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/white"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="10dp"
+                    android:background="@color/white" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/descriptionBubble3"
                     android:padding="5dp"
-                    android:textColor="@color/intro_title_color"/>
+                    android:text="@string/descriptionBubble3"
+                    android:textColor="@color/intro_title_color" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-
+            android:id="@+id/card_4"
             android:layout_width="160dp"
+
             android:layout_height="190dp"
             android:layout_margin="10dp"
-            android:focusable="true">
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardCornerRadius="14dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -182,29 +194,30 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/colorPink"
+                    android:contentDescription="@string/todo"
                     android:padding="10dp"
-                    android:src="@drawable/ic_baseline_outlet_24"
-                    android:contentDescription="@string/todo" />
+                    android:src="@drawable/ic_baseline_outlet_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/titleBubble4"/>
+                    android:text="@string/titleBubble4"
+                    android:textStyle="bold" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/white"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="10dp"
+                    android:background="@color/white" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/descriptionBubble4"
                     android:padding="5dp"
-                    android:textColor="@color/intro_title_color"/>
+                    android:text="@string/descriptionBubble4"
+                    android:textColor="@color/intro_title_color" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -219,13 +232,15 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
-            android:foreground="?android:attr/selectableItemBackground"
-            android:clickable="true"
-
+            android:id="@+id/card_5"
             android:layout_width="340dp"
+
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:focusable="true">
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardCornerRadius="14dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -237,29 +252,30 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@color/colorGreen"
+                    android:contentDescription="@string/todo"
                     android:padding="10dp"
-                    android:src="@drawable/ic_baseline_outlet_24"
-                    android:contentDescription="@string/todo" />
+                    android:src="@drawable/ic_baseline_outlet_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="@string/titleBubble5"/>
+                    android:text="@string/titleBubble5"
+                    android:textStyle="bold" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/white"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="10dp"
+                    android:background="@color/white" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="@string/descriptionBubble5"
                     android:padding="5dp"
-                    android:textColor="@color/intro_title_color"/>
+                    android:text="@string/descriptionBubble5"
+                    android:textColor="@color/intro_title_color" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
